@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Demo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3F544ECD-2D3E-4038-9495-1464CCE051EF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Demo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\DemoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{517E5723-8BAD-429B-9699-7773722F8221}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Demo">
+			<UniqueIdentifier>{60797BDB-0C81-4C4C-AF77-3EFCC46E56C5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Demo\Demo.Build.cs">
+			<Filter>Source\Demo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Demo\Demo.cpp">
+			<Filter>Source\Demo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Demo\Demo.h">
+			<Filter>Source\Demo</Filter>
+		</ClInclude >
+		<Filter Include="Source\Demo\Private">
+			<UniqueIdentifier>{7709E889-4A2E-4698-A529-E8A1D24450FC}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Demo\Private\MyActor.cpp">
+			<Filter>Source\Demo\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Demo\Public">
+			<UniqueIdentifier>{6DD2318D-D2D6-48D5-A666-12BB208CDBE6}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Demo\Public\MyActor.h">
+			<Filter>Source\Demo\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

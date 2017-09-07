@@ -1,0 +1,1298 @@
+﻿Log file open, 09/07/17 12:52:18
+LogInit:Display: Running engine for game: Demo
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-108988367) SRandInit(-108988367).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.196883
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: G:/4.16/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.07-04.52.18:821][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-04.52.18:821][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.07-04.52.18:890][  0]LogInit: Computer: HOME
+[2017.09.07-04.52.18:890][  0]LogInit: User: Blackplume
+[2017.09.07-04.52.18:890][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.07-04.52.18:890][  0]LogInit: High frequency timer resolution =3.507502 MHz
+[2017.09.07-04.52.18:890][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2017.09.07-04.52.18:890][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.07-04.52.18:890][  0]LogMemory: Process Physical Memory: 273.65 MB used, 273.65 MB peak
+[2017.09.07-04.52.18:890][  0]LogMemory: Process Virtual Memory: 261.12 MB used, 261.12 MB peak
+[2017.09.07-04.52.18:890][  0]LogMemory: Physical Memory: 5538.61 MB used,  10598.29 MB free, 16136.89 MB total
+[2017.09.07-04.52.18:890][  0]LogMemory: Virtual Memory: 638.12 MB used,  10598.29 MB free, 134217728.00 MB total
+[2017.09.07-04.52.19:285][  0]LogInit: Using OS detected language (zh-CN).
+[2017.09.07-04.52.19:285][  0]LogInit: Using OS detected locale (zh-CN).
+[2017.09.07-04.52.24:043][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.07-04.52.24:052][  0]LogD3D11RHI:    0. 'ATI FirePro V (FireGL V) Graphics Adapter' (Feature Level 11_0)
+[2017.09.07-04.52.24:052][  0]LogD3D11RHI:       1008/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.09.07-04.52.24:053][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.07-04.52.24:053][  0]LogD3D11RHI:       0/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.07-04.52.24:053][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.07-04.52.24:059][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.07-04.52.24:059][  0]LogD3D11RHI:     GPU DeviceId: 0x674a (for the marketing name, search the web for "GPU Device Id")
+[2017.09.07-04.52.24:059][  0]LogWindows: EnumDisplayDevices:
+[2017.09.07-04.52.24:059][  0]LogWindows:    0. 'ATI FirePro V (FireGL V) Graphics Adapter' (P:1 D:1)
+[2017.09.07-04.52.24:059][  0]LogWindows:    1. 'ATI FirePro V (FireGL V) Graphics Adapter' (P:0 D:0)
+[2017.09.07-04.52.24:060][  0]LogWindows:    2. 'ATI FirePro V (FireGL V) Graphics Adapter' (P:0 D:0)
+[2017.09.07-04.52.24:060][  0]LogWindows:    3. 'ATI FirePro V (FireGL V) Graphics Adapter' (P:0 D:0)
+[2017.09.07-04.52.24:060][  0]LogWindows:    4. 'ATI FirePro V (FireGL V) Graphics Adapter' (P:0 D:0)
+[2017.09.07-04.52.24:060][  0]LogWindows: DebugString: FoundDriverCount:5 
+[2017.09.07-04.52.24:060][  0]LogD3D11RHI:     Adapter Name: ATI FirePro V (FireGL V) Graphics Adapter
+[2017.09.07-04.52.24:060][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
+[2017.09.07-04.52.24:060][  0]LogD3D11RHI:      Driver Date: 11-4-2015
+[2017.09.07-04.52.24:060][  0]LogRHI: Texture pool is 706 MB (70% of 1008 MB)
+[2017.09.07-04.52.24:076][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2017.09.07-04.52.24:081][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.07-04.52.24:092][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.09.07-04.52.24:092][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (H:/WORKSPACE/unity/GameDemo/Intermediate/Shaders/WorkingDirectory/22836/).
+[2017.09.07-04.52.24:092][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/A/AppData/Local/Temp/UnrealShaderWorkingDir/EA96DE734460136D2236928F5DEFE2AF/'.
+[2017.09.07-04.52.24:092][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.07-04.52.28:100][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.07-04.52.28:133][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.07-04.52.28:165][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.07-04.52.28:198][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.07-04.52.28:235][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.07-04.52.28:269][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.07-04.52.28:302][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.07-04.52.28:335][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.07-04.52.28:362][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.07-04.52.28:397][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.07-04.52.28:430][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.07-04.52.28:462][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.07-04.52.28:494][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.07-04.52.28:526][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.07-04.52.28:557][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.07-04.52.28:623][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.07-04.52.28:623][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.07-04.52.28:646][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.07-04.52.28:737][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.07-04.52.28:758][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.07-04.52.28:839][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.07-04.52.28:876][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.07-04.52.28:949][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.07-04.52.28:990][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.07-04.52.28:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.07-04.52.29:955][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.07-04.52.30:049][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/A/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.07-04.52.30:049][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/A/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.07-04.52.30:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/WORKSPACE/unity/GameDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.07-04.52.30:049][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.07-04.52.30:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/WORKSPACE/unity/GameDemo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.07-04.52.30:049][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.07-04.52.30:081][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.07-04.52.30:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/A/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.07-04.52.30:102][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.07-04.52.30:103][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.07-04.52.30:110][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-04.52.30:110][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-04.52.35:530][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-04.52.35:650][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.07-04.52.35:854][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.07-04.52.35:903][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.07-04.52.35:931][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.07-04.52.35:931][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.07-04.52.35:931][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.07-04.52.38:490][  0]LogNetVersion: Demo , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3857643572)
+[2017.09.07-04.52.38:581][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.09.07-04.52.38:655][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 4 prioritized culture(s) in 0.060206 seconds
+[2017.09.07-04.52.38:660][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.07-04.52.38:660][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.07-04.52.38:660][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.07-04.52.38:703][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.07-04.52.42:638][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.07-04.52.42:668][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.07-04.52.43:197][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.07-04.52.43:615][  0]SourceControl: 信息 源码控制已禁用
+[2017.09.07-04.52.43:787][  0]SourceControl: 信息 源码控制已禁用
+[2017.09.07-04.52.43:819][  0]SourceControl: 信息 源码控制已禁用
+[2017.09.07-04.52.43:847][  0]SourceControl: 信息 源码控制已禁用
+[2017.09.07-04.52.44:263][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.07-04.52.44:793][  0]LogEngine: Initializing Engine...
+[2017.09.07-04.52.44:794][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.07-04.52.45:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.07-04.52.45:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.07-04.52.45:450][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.07-04.52.45:456][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-04.52.45:483][  0]LogInit: FAudioDevice initialized.
+[2017.09.07-04.52.45:531][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/A/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.07-04.52.45:548][  0]LogInit: Texture streaming: Enabled
+[2017.09.07-04.52.45:607][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.07-04.52.45:764][  0]LogInit: Transaction tracking system initialized
+[2017.09.07-04.52.45:986][  0]BlueprintLog: New page: 编辑器加载
+[2017.09.07-04.52.46:669][  0]LocalizationService: 信息 本地化服务已被禁用
+[2017.09.07-04.52.47:217][  0]LogConsoleResponse:Display: 
+[2017.09.07-04.52.47:768][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.07-04.52.47:768][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.07-04.52.48:342][  0]LogFileCache: Scanning file cache for directory 'H:/WORKSPACE/unity/GameDemo/Content/' took 0.02s
+[2017.09.07-04.52.48:794][  0]SourceControl: 信息 源码控制已禁用
+[2017.09.07-04.52.48:795][  0]Cmd: MAP LOAD FILE="H:/WORKSPACE/unity/GameDemo/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.07-04.52.48:799][  0]LightingResults: New page: 光照构建
+[2017.09.07-04.52.48:825][  0]MapCheck: New page: 地图检测
+[2017.09.07-04.52.48:825][  0]LightingResults: New page: 光照构建
+[2017.09.07-04.52.49:467][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-04.52.49:480][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.07-04.52.49:500][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.07-04.52.49:536][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时35.545毫秒完成。
+[2017.09.07-04.52.49:536][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.741
+[2017.09.07-04.52.49:684][  0]LogCollectionManager: Loaded 0 collections in 0.000692 seconds
+[2017.09.07-04.52.49:746][  0]LogFileCache: Scanning file cache for directory 'H:/WORKSPACE/unity/GameDemo/Saved/Collections/' took 0.01s
+[2017.09.07-04.52.49:746][  0]LogFileCache: Scanning file cache for directory 'H:/WORKSPACE/unity/GameDemo/Content/Developers/Blackplume/Collections/' took 0.01s
+[2017.09.07-04.52.49:746][  0]LogFileCache: Scanning file cache for directory 'H:/WORKSPACE/unity/GameDemo/Content/Collections/' took 0.01s
+[2017.09.07-04.52.49:746][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.07-04.52.49:755][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2329 classes and 491 folders.
+[2017.09.07-04.52.49:795][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.07-04.52.50:319][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.07-04.52.50:362][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.07-04.52.50:413][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.07-04.52.50:424][  0]LogSlate: Took 0.004392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.07-04.52.50:431][  0]LogSlate: Took 0.005839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.07-04.52.50:435][  0]LogSlate: Took 0.003651 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.07-04.52.50:442][  0]LogSlate: Took 0.003778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.07-04.52.50:569][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.09.07-04.52.50:791][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2017.09.07-04.52.50:840][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.07-04.52.50:840][  0]LogLoad: (Engine Initialization) Total time: 37.67 seconds
+[2017.09.07-04.52.50:840][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.27 seconds
+[2017.09.07-04.52.50:840][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.07-04.52.50:840][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.07-04.52.51:181][  0]LogOcInput: OculusInput pre-init called
+[2017.09.07-04.52.51:181][  0]LogHMD: Starting GearVRController plugin
+[2017.09.07-04.52.51:197][  0]LogAssetRegistry: Asset discovery search completed in 12.6382 seconds
+[2017.09.07-04.52.51:199][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.07-04.52.51:199][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.09.07-04.52.51:202][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.07-04.52.51:259][  0]LogSlate: Took 0.004510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.07-04.54.32:959][275]SourceControl: 信息 On branch master
+[2017.09.07-04.54.32:959][275]SourceControl: 信息 Your branch is ahead of 'origin/master' by 1 commit.
+[2017.09.07-04.54.32:959][275]SourceControl: 信息   (use "git push" to publish your local commits)
+[2017.09.07-04.54.32:959][275]SourceControl: 信息 nothing to commit, working tree clean
+[2017.09.07-04.54.55:006][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.07-04.54.58:681][ 94]LogTemp: Repeting last play command: 选中的视口
+[2017.09.07-04.54.58:787][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.54.58:787][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-04.54.58:810][ 94]PIE: New page: PIE会话: TopDownExampleMap (2017年9月7日 下午8:54:58)
+[2017.09.07-04.54.58:810][ 94]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.07-04.54.58:905][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095337s)
+[2017.09.07-04.54.58:906][ 94]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-04.54.58:907][ 94]LogPlayLevel: PIE: World Init took: (0.001956s)
+[2017.09.07-04.54.58:908][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.098041s)
+[2017.09.07-04.54.58:951][ 94]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-04.54.58:963][ 94]LogInit: FAudioDevice initialized.
+[2017.09.07-04.54.59:044][ 94]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.07-04.54.59:063][ 94]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.07-12.54.59
+[2017.09.07-04.54.59:064][ 94]LogWorld: Bringing up level for play took: 0.004480
+[2017.09.07-04.54.59:191][ 94]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.09.07-04.54.59:193][ 94]PIE: 信息 /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.321
+[2017.09.07-04.54.59:193][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.55.23:491][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.55.23:555][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.55.48:697][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.07-04.55.49:598][549]LogTemp: Repeting last play command: 选中的视口
+[2017.09.07-04.55.49:613][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.55.49:613][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-04.55.49:613][549]PIE: New page: PIE会话: TopDownExampleMap (2017年9月7日 下午8:55:49)
+[2017.09.07-04.55.49:613][549]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.07-04.55.49:638][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024506s)
+[2017.09.07-04.55.49:639][549]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-04.55.49:639][549]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2017.09.07-04.55.49:640][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026246s)
+[2017.09.07-04.55.49:658][549]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-04.55.49:666][549]LogInit: FAudioDevice initialized.
+[2017.09.07-04.55.49:701][549]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.07-04.55.49:705][549]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.07-12.55.49
+[2017.09.07-04.55.49:706][549]LogWorld: Bringing up level for play took: 0.003268
+[2017.09.07-04.55.49:707][549]PIE: 信息 /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.193
+[2017.09.07-04.55.49:707][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.58.03:396][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.58.03:514][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-04.58.14:168][697]LogSlate: Took 0.000578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.07-04.58.14:842][697]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.09.07-04.58.15:517][697]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.07-04.58.15:837][697]LogSlate: Took 0.013634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.07-04.58.16:234][698]LogSlate: Took 0.017408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.07-05.02.17:174][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.07-05.02.32:621][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.07-05.02.33:665][327]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2017.09.07-05.02.37:342][433]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: request failed, libcurl error: 35 (SSL connect error)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 0 (Connection 36 seems to be dead!)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 1 (Closing connection 36)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#37))
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 9 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.09.07-06.35.10:533][129]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 10 (Closing connection 37)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 0 (Connection 38 seems to be dead!)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 1 (Closing connection 38)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#39))
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 10 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 14 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 15 (ALPN, server accepted to use http/1.1)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 16 (Server certificate:)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 17 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 18 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 19 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 20 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 21 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 22 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 23 (upload completely sent off: 360 out of 360 bytes)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 24 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-06.39.11:176][226]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 25 (Closing connection 39)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x13c501b3fb8 [can pipeline])
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 1 (Re-using existing connection! (#41) with host datarouter.ol.epicgames.com)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#41))
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 3 (upload completely sent off: 359 out of 359 bytes)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 6 (Closing connection 41)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B34EA9854-46C9-47A0-676B-B6B9CC404F62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a45320b3436f679f24a4fc8116d3351e%7C79d47bba95c64ad0a0d0a7c0ff3c24ed%7Cf2915413-d34a-4f6a-bf63-c93bd0f320a7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 8 (  Trying 119.28.34.46...)
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#42))
+[2017.09.07-06.43.31:002][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 10 (ALPN, offering http/1.1)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 11 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 12 (SSL re-using session ID)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 14 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 15 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 17 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 19 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 20 (ALPN, server accepted to use http/1.1)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 21 (Server certificate:)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 22 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 23 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 24 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 25 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 26 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 27 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 28 (upload completely sent off: 359 out of 359 bytes)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 29 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-06.43.31:003][806]LogHttp:Warning: 0000013C58132E00: libcurl info message cache 30 (Closing connection 42)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 0 (Connection 44 seems to be dead!)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 1 (Closing connection 44)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#45))
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 10 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 14 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 15 (ALPN, server accepted to use http/1.1)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 16 (Server certificate:)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 17 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 18 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 19 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 20 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 21 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 22 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 23 (upload completely sent off: 708 out of 708 bytes)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 24 (Empty reply from server)
+[2017.09.07-06.48.52:012][939]LogHttp:Warning: 0000013C585F2380: libcurl info message cache 25 (Connection #45 to host datarouter.ol.epicgames.com left intact)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 0 (Connection 52 seems to be dead!)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 1 (Closing connection 52)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#53))
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 10 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 14 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 15 (ALPN, server accepted to use http/1.1)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 16 (Server certificate:)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 17 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 18 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 19 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 20 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 21 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 22 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 23 (upload completely sent off: 358 out of 358 bytes)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 24 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-07.05.10:551][742]LogHttp:Warning: 0000013C78E1AF80: libcurl info message cache 25 (Closing connection 53)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 1 (  Trying 119.28.34.46...)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#54))
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 5 (SSL re-using session ID)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 7 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 8 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 10 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 12 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 13 (ALPN, server accepted to use http/1.1)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 14 (Server certificate:)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 15 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 16 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 17 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 18 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 19 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 20 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 21 (upload completely sent off: 359 out of 359 bytes)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 22 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-07.06.10:528][262]LogHttp:Warning: 0000013C58108A00: libcurl info message cache 23 (Closing connection 54)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 0 (Connection 56 seems to be dead!)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 1 (Closing connection 56)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#57))
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 10 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 14 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 15 (ALPN, server accepted to use http/1.1)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 16 (Server certificate:)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 17 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 18 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-07.12.10:916][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 19 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-07.12.10:917][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 20 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-07.12.10:917][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 21 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-07.12.10:917][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 22 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-07.12.10:917][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 23 (upload completely sent off: 360 out of 360 bytes)
+[2017.09.07-07.12.10:917][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 24 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-07.12.10:917][395]LogHttp:Warning: 0000013C78E1BE80: libcurl info message cache 25 (Closing connection 57)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: request failed, libcurl error: 35 (SSL connect error)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x13c501b3fb8 [can pipeline])
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 1 (Re-using existing connection! (#61) with host datarouter.ol.epicgames.com)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#61))
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 3 (upload completely sent off: 359 out of 359 bytes)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 6 (Closing connection 61)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B34EA9854-46C9-47A0-676B-B6B9CC404F62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a45320b3436f679f24a4fc8116d3351e%7C79d47bba95c64ad0a0d0a7c0ff3c24ed%7Cf2915413-d34a-4f6a-bf63-c93bd0f320a7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 9 (  Trying 119.28.34.46...)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#62))
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 11 (ALPN, offering http/1.1)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 12 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 13 (SSL re-using session ID)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 15 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.09.07-07.22.26:675][993]LogHttp:Warning: 0000013C58133B80: libcurl info message cache 16 (Closing connection 62)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 0 (Connection 63 seems to be dead!)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 1 (Closing connection 63)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#64))
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-07.25.11:602][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 10 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 14 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 15 (ALPN, server accepted to use http/1.1)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 16 (Server certificate:)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 17 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 18 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 19 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 20 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 21 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 22 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 23 (upload completely sent off: 360 out of 360 bytes)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 24 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-07.25.11:603][175]LogHttp:Warning: 0000013C58109900: libcurl info message cache 25 (Closing connection 64)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 1 (  Trying 119.28.34.46...)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#65))
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 5 (SSL re-using session ID)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 7 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 8 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 10 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 12 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 13 (ALPN, server accepted to use http/1.1)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 14 (Server certificate:)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 15 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-07.26.10:270][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 16 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-07.26.10:271][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 17 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-07.26.10:271][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 18 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-07.26.10:271][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 19 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-07.26.10:271][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 20 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-07.26.10:271][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 21 (upload completely sent off: 359 out of 359 bytes)
+[2017.09.07-07.26.10:271][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 22 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10053)
+[2017.09.07-07.26.10:271][351]LogHttp:Warning: 0000013C585F1780: libcurl info message cache 23 (Closing connection 65)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: request failed, libcurl error: 35 (SSL connect error)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 0 (Connection 67 seems to be dead!)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 1 (Closing connection 67)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#68))
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 9 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.09.07-07.32.10:606][432]LogHttp:Warning: 0000013C58133880: libcurl info message cache 10 (Closing connection 68)
+[2017.09.07-07.36.24:184][ 85]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2017.09.07-07.37.00:581][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.07-07.37.01:691][820]LogTemp: Repeting last play command: 选中的视口
+[2017.09.07-07.37.01:734][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.37.01:735][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-07.37.01:735][820]PIE: New page: PIE会话: TopDownExampleMap (2017年9月7日 下午11:37:01)
+[2017.09.07-07.37.01:735][820]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.07-07.37.01:773][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037902s)
+[2017.09.07-07.37.01:774][820]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-07.37.01:775][820]LogPlayLevel: PIE: World Init took: (0.001207s)
+[2017.09.07-07.37.01:775][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039536s)
+[2017.09.07-07.37.01:806][820]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-07.37.01:814][820]LogInit: FAudioDevice initialized.
+[2017.09.07-07.37.01:848][820]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.07-07.37.01:851][820]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.07-15.37.01
+[2017.09.07-07.37.01:852][820]LogWorld: Bringing up level for play took: 0.002631
+[2017.09.07-07.37.01:853][820]PIE: 信息 /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.338
+[2017.09.07-07.37.01:853][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.37.29:611][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.37.29:694][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.37.32:842][733]LogTemp: Repeting last play command: 选中的视口
+[2017.09.07-07.37.32:857][733]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.37.32:857][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-07.37.32:857][733]PIE: New page: PIE会话: TopDownExampleMap (2017年9月7日 下午11:37:32)
+[2017.09.07-07.37.32:857][733]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.07-07.37.32:877][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020512s)
+[2017.09.07-07.37.32:879][733]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-07.37.32:879][733]LogPlayLevel: PIE: World Init took: (0.001342s)
+[2017.09.07-07.37.32:879][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022362s)
+[2017.09.07-07.37.32:897][733]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-07.37.32:904][733]LogInit: FAudioDevice initialized.
+[2017.09.07-07.37.32:945][733]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.07-07.37.32:950][733]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.07-15.37.32
+[2017.09.07-07.37.32:951][733]LogWorld: Bringing up level for play took: 0.004277
+[2017.09.07-07.37.32:952][733]PIE: 信息 /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.562
+[2017.09.07-07.37.32:953][733]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.37.39:710][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.37.39:770][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.38.42:013][ 59]BlueprintLog: New page: 编译TopDownController
+[2017.09.07-07.38.43:142][ 82]LogTemp: Repeting last play command: 选中的视口
+[2017.09.07-07.38.43:157][ 82]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.38.43:157][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-07.38.43:157][ 82]PIE: New page: PIE会话: TopDownExampleMap (2017年9月7日 下午11:38:43)
+[2017.09.07-07.38.43:157][ 82]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.07-07.38.43:178][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020962s)
+[2017.09.07-07.38.43:179][ 82]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-07.38.43:179][ 82]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2017.09.07-07.38.43:179][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022429s)
+[2017.09.07-07.38.43:203][ 82]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-07.38.43:210][ 82]LogInit: FAudioDevice initialized.
+[2017.09.07-07.38.43:243][ 82]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.07-07.38.43:246][ 82]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.07-15.38.43
+[2017.09.07-07.38.43:247][ 82]LogWorld: Bringing up level for play took: 0.002335
+[2017.09.07-07.38.43:248][ 82]PIE: 信息 /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.267
+[2017.09.07-07.38.43:248][ 82]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.39.07:775][891]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.39.07:827][891]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.39.21:722][384]BlueprintLog: New page: 编译TopDownController
+[2017.09.07-07.39.24:884][450]LogTemp: Repeting last play command: 选中的视口
+[2017.09.07-07.39.24:899][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.39.24:899][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-07.39.24:899][450]PIE: New page: PIE会话: TopDownExampleMap (2017年9月7日 下午11:39:24)
+[2017.09.07-07.39.24:899][450]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.07-07.39.24:919][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019801s)
+[2017.09.07-07.39.24:920][450]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-07.39.24:920][450]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2017.09.07-07.39.24:920][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021143s)
+[2017.09.07-07.39.24:943][450]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-07.39.24:951][450]LogInit: FAudioDevice initialized.
+[2017.09.07-07.39.24:983][450]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.07-07.39.24:989][450]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.07-15.39.24
+[2017.09.07-07.39.24:990][450]LogWorld: Bringing up level for play took: 0.004724
+[2017.09.07-07.39.24:992][450]PIE: 信息 /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.523
+[2017.09.07-07.39.24:992][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.39.30:354][607]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.39.30:405][607]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.40.10:720][127]BlueprintLog: New page: 编译TopDownController
+[2017.09.07-07.40.12:876][179]LogTemp: Repeting last play command: 选中的视口
+[2017.09.07-07.40.12:891][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.40.12:891][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-07.40.12:891][179]PIE: New page: PIE会话: TopDownExampleMap (2017年9月7日 下午11:40:12)
+[2017.09.07-07.40.12:892][179]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.07-07.40.12:913][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020967s)
+[2017.09.07-07.40.12:914][179]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.07-07.40.12:914][179]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2017.09.07-07.40.12:914][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022659s)
+[2017.09.07-07.40.12:931][179]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-07.40.12:939][179]LogInit: FAudioDevice initialized.
+[2017.09.07-07.40.12:974][179]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.07-07.40.12:977][179]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.07-15.40.12
+[2017.09.07-07.40.12:977][179]LogWorld: Bringing up level for play took: 0.002310
+[2017.09.07-07.40.12:978][179]PIE: 信息 /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.536
+[2017.09.07-07.40.12:978][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.40.16:844][308]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.16:863][309]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.17:956][347]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.17:983][348]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:012][349]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:040][350]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:071][351]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:097][352]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:125][353]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:153][354]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:181][355]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:210][356]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:238][357]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:266][358]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:294][359]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:323][360]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:351][361]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:379][362]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:407][363]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:435][364]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:463][365]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:492][366]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:521][367]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:549][368]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:578][369]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:607][370]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:635][371]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:665][372]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:692][373]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:721][374]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:749][375]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:777][376]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:806][377]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:835][378]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:864][379]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:893][380]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:921][381]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.18:949][382]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:150][389]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:176][390]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:205][391]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:234][392]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:263][393]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:291][394]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:320][395]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:349][396]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:377][397]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:405][398]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:434][399]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:462][400]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:490][401]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:519][402]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:547][403]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:575][404]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:605][405]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:634][406]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:662][407]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:690][408]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:718][409]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:747][410]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:775][411]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:803][412]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:831][413]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:860][414]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:888][415]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:917][416]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:944][417]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.19:973][418]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.20:003][419]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.20:030][420]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.20:059][421]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.20:088][422]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.20:116][423]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:109][458]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:135][459]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:163][460]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:192][461]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:220][462]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:648][477]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:674][478]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:701][479]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:729][480]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:758][481]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:786][482]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:814][483]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:843][484]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:872][485]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:900][486]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:928][487]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:956][488]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.21:985][489]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.22:013][490]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:034][526]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:060][527]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:088][528]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:117][529]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:145][530]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:801][553]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:827][554]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:855][555]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.23:883][556]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:483][577]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:508][578]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:536][579]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:564][580]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:592][581]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:620][582]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:648][583]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:677][584]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:705][585]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:733][586]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:762][587]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:790][588]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:820][589]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.24:848][590]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:153][636]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:179][637]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:208][638]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:236][639]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:264][640]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:292][641]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:320][642]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:348][643]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:377][644]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:407][645]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:435][646]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:463][647]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.26:492][648]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:347][678]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:372][679]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:399][680]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:428][681]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:456][682]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:485][683]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:513][684]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:541][685]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:569][686]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:598][687]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:626][688]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:655][689]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:683][690]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:712][691]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.27:740][692]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.28:881][732]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.28:906][733]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.28:934][734]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.28:962][735]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.28:990][736]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.29:019][737]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.29:047][738]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.29:987][771]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:014][772]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:042][773]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:071][774]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:099][775]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:127][776]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:155][777]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:183][778]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:212][779]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.30:240][780]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:406][821]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:432][822]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:460][823]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:489][824]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:517][825]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:545][826]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:573][827]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:601][828]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:631][829]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:660][830]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:688][831]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:716][832]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.31:744][833]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.32:825][871]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.32:850][872]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.32:878][873]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.32:906][874]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.32:935][875]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.32:963][876]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.32:992][877]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:020][878]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:048][879]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:076][880]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:104][881]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:132][882]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:161][883]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:189][884]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:218][885]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:247][886]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:275][887]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:303][888]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:331][889]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:359][890]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:388][891]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.33:416][892]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:212][920]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:238][921]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:266][922]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:295][923]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:323][924]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:351][925]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:380][926]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:408][927]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:438][928]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:466][929]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:495][930]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:523][931]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:552][932]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:580][933]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:609][934]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.34:636][935]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.35:917][980]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.35:942][981]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.35:970][982]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.35:999][983]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:026][984]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:054][985]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:083][986]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:111][987]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:139][988]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:167][989]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:196][990]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:224][991]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:252][992]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:281][993]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:881][ 14]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:908][ 15]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:936][ 16]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:965][ 17]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.36:993][ 18]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.37:021][ 19]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.37:049][ 20]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.37:078][ 21]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.37:106][ 22]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.37:135][ 23]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.37:164][ 24]LogBlueprintUserMessages: [TopDownController_C_0] Hello
+[2017.09.07-07.40.38:409][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.40.38:473][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x13c501b3fe8 [can pipeline])
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 1 (Re-using existing connection! (#72) with host datarouter.ol.epicgames.com)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#72))
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 3 (upload completely sent off: 1444 out of 1444 bytes)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 6 (Closing connection 72)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B34EA9854-46C9-47A0-676B-B6B9CC404F62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a45320b3436f679f24a4fc8116d3351e%7C79d47bba95c64ad0a0d0a7c0ff3c24ed%7Cf2915413-d34a-4f6a-bf63-c93bd0f320a7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 9 (  Trying 119.28.34.46...)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#73))
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 11 (ALPN, offering http/1.1)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 12 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 13 (SSL re-using session ID)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 16 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 18 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 19 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-07.40.52:232][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 20 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 21 (ALPN, server accepted to use http/1.1)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 22 (Server certificate:)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 23 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 24 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 25 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 26 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 27 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 28 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 29 (upload completely sent off: 1444 out of 1444 bytes)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 30 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 31 (Empty reply from server)
+[2017.09.07-07.40.52:233][837]LogHttp:Warning: 0000013C6BE2E200: libcurl info message cache 32 (Connection #73 to host datarouter.ol.epicgames.com left intact)
+[2017.09.07-07.41.13:815][364]Running G:/4.16/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="H:/WORKSPACE/unity/GameDemo/Demo.uproject" -game -rocket -progress
+[2017.09.07-07.41.14:534][364]Discovering modules, targets and source code for project...
+[2017.09.07-07.41.32:689][364]LogHotReload: Recompiling module Demo...
+[2017.09.07-07.41.32:721][364]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.09.07-07.41.32:756][364]Candidate modules for hot reload:
+[2017.09.07-07.41.32:756][364]  Demo
+[2017.09.07-07.41.32:756][364]Launching UnrealBuildTool... [G:/4.16/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Demo -Module Demo Win64 Development -editorrecompile -canskiplink "H:/WORKSPACE/unity/GameDemo/Demo.uproject" ]
+[2017.09.07-07.42.49:730][364]Performing full C++ include scan (hot reloading a new target)
+Compiling game modules for hot reload
+Parsing headers for DemoEditor
+  Running UnrealHeaderTool "H:\WORKSPACE\unity\GameDemo\Demo.uproject" "H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\DemoEditor\Development\DemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for DemoEditor in 4.3328382 seconds
+Performing 8 actions (4 in parallel)
+[2/8] Resource ModuleVersionResource.rc.inl
+[3/8] Resource PCLaunch.rc
+SharedPCH.Engine.cpp
+MyActor.cpp
+Demo.generated.cpp
+Demo.cpp
+[7/8] Link UE4Editor-Demo.dll
+[8/8] Link UE4Editor-Demo.lib
+  ???ڴ????? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.lib ?Ͷ??? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.exp
+  ???ڴ????? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.suppressed.lib ?Ͷ??? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.suppressed.exp
+Total build time: 76.56 seconds (Local executor: 51.47 seconds)
+
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: New page: 编译- 2017年9月7日 下午11:42:49
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 Performing full C++ include scan (hot reloading a new target)
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 Compiling game modules for hot reload
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 Parsing headers for DemoEditor
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息   Running UnrealHeaderTool "H:\WORKSPACE\unity\GameDemo\Demo.uproject" "H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\DemoEditor\Development\DemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 Reflection code generated for DemoEditor in 4.3328382 seconds
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 Performing 8 actions (4 in parallel)
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 [2/8] Resource ModuleVersionResource.rc.inl
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 [3/8] Resource PCLaunch.rc
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 SharedPCH.Engine.cpp
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 MyActor.cpp
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 Demo.generated.cpp
+[2017.09.07-07.42.49:730][364]CompilerResultsLog: 信息 Demo.cpp
+[2017.09.07-07.42.49:731][364]CompilerResultsLog: 信息 [7/8] Link UE4Editor-Demo.dll
+[2017.09.07-07.42.49:731][364]CompilerResultsLog: 信息 [8/8] Link UE4Editor-Demo.lib
+[2017.09.07-07.42.49:731][364]CompilerResultsLog: 信息   ???ڴ????? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.lib ?Ͷ??? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.exp
+[2017.09.07-07.42.49:731][364]CompilerResultsLog: 信息   ???ڴ????? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.suppressed.lib ?Ͷ??? H:\WORKSPACE\unity\GameDemo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Demo.suppressed.exp
+[2017.09.07-07.42.49:731][364]CompilerResultsLog: 信息 Total build time: 76.56 seconds (Local executor: 51.47 seconds)
+[2017.09.07-07.42.49:731][364]LogMainFrame: MainFrame: Module compiling took 77.010 seconds
+[2017.09.07-07.42.49:769][364]Reloading module Demo after successful compile.
+[2017.09.07-07.42.49:944][364]LogContentBrowser: Native class hierarchy updated for 'Demo' in 0.0040 seconds. Added 1 classes and 3 folders.
+[2017.09.07-07.42.50:207][364]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2332 classes and 498 folders.
+[2017.09.07-07.42.52:124][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.043
+[2017.09.07-07.42.52:619][365]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2017.09.07-07.42.52:619][365]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2017.09.07-07.42.53:612][365]LogSavePackage: Save=962.47ms
+[2017.09.07-07.42.53:612][365]LogSavePackage: Moving 'H:/WORKSPACE/unity/GameDemo/Saved/TopDownController_Auto14C5E88EE41E652BFCCD494BDDAE43F06.tmp' to 'H:/WORKSPACE/unity/GameDemo/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto1.uasset'
+[2017.09.07-07.42.53:613][365]LogSavePackage:Display: Finished SavePackage H:/WORKSPACE/unity/GameDemo/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto1.uasset
+[2017.09.07-07.42.53:613][365]LogFileHelpers: Auto-saving content packages took 1.044
+[2017.09.07-07.43.50:860][432]LogVSAccessor:Warning: Couldn't goto line number '0' in 'H:/WORKSPACE/unity/GameDemo/Source/Demo/Public/MyActor.h'
+[2017.09.07-07.43.51:217][432]LogVSAccessor:Warning: Couldn't goto line number '0' in 'H:/WORKSPACE/unity/GameDemo/Source/Demo/Private/MyActor.cpp'
+[2017.09.07-07.51.08:532][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="H:/WORKSPACE/unity/GameDemo/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2017.09.07-07.51.08:583][145]LogSavePackage: Save=39.66ms
+[2017.09.07-07.51.08:583][145]LogSavePackage: Moving 'H:/WORKSPACE/unity/GameDemo/Saved/TopDownController350F4C854B0883EE9BE84AABEDDEB3D1.tmp' to 'H:/WORKSPACE/unity/GameDemo/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2017.09.07-07.51.08:587][145]LogSavePackage:Display: Finished SavePackage H:/WORKSPACE/unity/GameDemo/Content/TopDownBP/Blueprints/TopDownController.uasset
+[2017.09.07-07.51.12:415][397]SourceControl: 信息 fatal: G:/4.16/UE_4.16/Engine/Content/: 'G:/4.16/UE_4.16/Engine/Content/' is outside repository
+[2017.09.07-07.51.12:501][397]LogUObjectHash:Warning: Ambiguous search, could be FloatProperty /Script/Engine.KismetMathLibrary:HSVToRGB.H or FloatProperty /Script/Engine.KismetMathLibrary:RGBToHSV.H
+[2017.09.07-07.51.12:521][397]LogPackageName:Error: Illegal call to DoesPackageExist: 'H:/WORKSPACE/unity/GameDemo/Demo.uproject' is not a standard unreal filename or a long path name. Reason: 路径的字符数必须低于4。
+[2017.09.07-07.51.13:302][397]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.782 s
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: 
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674]
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'H:/WORKSPACE/unity/GameDemo/Demo.uproject' is not a standard unreal filename or a long path name. Reason: 路径的字符数必须低于4。
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: Stack: 
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003BF6E2B6
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003BD1B8C2
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003BD31E86
+[2017.09.07-07.51.13:302][397]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003E32E884
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000049FE5EC2
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000049FE6057
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000002309390E
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000230503C5
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000002304F99D
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x0000000023064114
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x0000000020AF0549
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000049FEA9AC
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003C80408F
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003D028D86
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor.exe!0x00000000788EE2B2
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor.exe!0x00000000788DF0B0
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor.exe!0x00000000788DF12A
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor.exe!0x00000000788F0CF9
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: UE4Editor.exe!0x00000000788F25F7
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: KERNEL32.DLL!0x0000000079E78364
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: ntdll.dll!0x000000007C2670D1
+[2017.09.07-07.51.13:303][397]LogOutputDevice:Error: 
+[2017.09.07-07.51.13:310][397]LogStats:                SubmitErrorReport -  0.000 s
+[2017.09.07-07.51.18:902][397]LogStats:                    SendNewReport -  5.592 s
+[2017.09.07-07.51.18:902][397]LogStats:             FDebug::EnsureFailed -  6.381 s
+[2017.09.07-07.51.34:338][397]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.09.07-07.51.34:547][397]SourceControl: 信息 [master b17491b] Test
+[2017.09.07-07.51.34:547][397]SourceControl: 信息  2 files changed, 11 insertions(+), 1 deletion(-)
+[2017.09.07-07.51.34:547][397]SourceControl: 信息  rewrite Content/TopDownBP/Blueprints/TopDownController.uasset (94%)
+[2017.09.07-07.51.34:553][397]SourceControl: 信息 Commited [master b17491b] Test.
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 0 (Connection 80 seems to be dead!)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 1 (Closing connection 80)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (119.28.34.46) port 443 (#81))
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 10 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.07-07.56.51:305][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 14 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 15 (ALPN, server accepted to use http/1.1)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 16 (Server certificate:)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 17 (	 subject: C=US; ST=North Carolina; L=Cary; O=Epic Games; OU=Online Operations; CN=*.ol.epicgames.com)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 18 (	 start date: Jun  6 00:00:00 2017 GMT)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 19 (	 expire date: Jun  6 23:59:59 2019 GMT)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 20 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 21 (	 issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust SSL CA - G3)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 22 (	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 23 (upload completely sent off: 359 out of 359 bytes)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 24 (Empty reply from server)
+[2017.09.07-07.56.51:306][508]LogHttp:Warning: 0000013C67C18B80: libcurl info message cache 25 (Connection #81 to host datarouter.ol.epicgames.com left intact)
+[2017.09.07-07.57.48:198][761]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (中文(简体) - 手心输入法).
+[2017.09.07-07.57.48:394][762]Cmd: QUIT_EDITOR
+[2017.09.07-07.57.48:487][762]LogExit: Preparing to exit.
+[2017.09.07-07.57.49:142][762]LogExit: Editor shut down
+[2017.09.07-07.57.49:166][762]LogExit: Transaction tracking system shut down
+[2017.09.07-07.57.49:320][762]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.07-07.57.49:321][762]LogExit: Object subsystem successfully closed.
+[2017.09.07-07.57.49:347][762]LogD3D11RHI: Shutdown
+[2017.09.07-07.57.49:347][762]LogD3D11RHI: CleanupD3DDevice
+[2017.09.07-07.57.49:441][762]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.07-07.57.49:490][762]LogModuleManager: Shutting down and abandoning module Demo (532)
+[2017.09.07-07.57.49:490][762]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.09.07-07.57.49:490][762]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.09.07-07.57.49:532][762]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.09.07-07.57.49:542][762]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.09.07-07.57.49:542][762]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.09.07-07.57.49:542][762]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.09.07-07.57.49:542][762]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.09.07-07.57.49:542][762]LogDirectoryWatcher: A directory notification for 'G:/4.16/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.07-07.57.49:547][762]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.09.07-07.57.49:547][762]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.09.07-07.57.49:547][762]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.09.07-07.57.49:548][762]LogDirectoryWatcher: A directory notification for 'H:/WORKSPACE/unity/GameDemo/Content/Collections/' was aborted.
+[2017.09.07-07.57.49:548][762]LogDirectoryWatcher: A directory notification for 'H:/WORKSPACE/unity/GameDemo/Content/Developers/Blackplume/Collections/' was aborted.
+[2017.09.07-07.57.49:548][762]LogDirectoryWatcher: A directory notification for 'H:/WORKSPACE/unity/GameDemo/Saved/Collections/' was aborted.
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.09.07-07.57.49:548][762]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.09.07-07.57.49:549][762]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.09.07-07.57.49:549][762]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.09.07-07.57.49:549][762]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.09.07-07.57.49:549][762]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.09.07-07.57.49:549][762]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.09.07-07.57.49:829][762]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.09.07-07.57.49:831][762]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.09.07-07.57.49:831][762]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.09.07-07.57.49:831][762]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.09.07-07.57.49:831][762]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.09.07-07.57.49:831][762]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.09.07-07.57.49:831][762]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.09.07-07.57.49:831][762]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.09.07-07.57.49:886][762]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.09.07-07.57.49:912][762]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.09.07-07.57.49:915][762]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.09.07-07.57.49:916][762]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.09.07-07.57.49:916][762]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.09.07-07.57.49:916][762]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.09.07-07.57.50:159][762]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.09.07-07.57.50:160][762]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.07-07.57.50:161][762]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.07-07.57.50:263][762]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.07-07.57.50:364][762]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.07-07.57.50:364][762]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.07-07.57.50:364][762]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.07-07.57.50:364][762]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.07-07.57.50:364][762]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.07-07.57.50:364][762]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.07-07.57.50:368][762]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.07-07.57.50:368][762]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.07-07.57.50:368][762]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.07-07.57.50:369][762]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.07-07.57.50:369][762]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.07-07.57.50:369][762]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.07-07.57.50:369][762]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.07-07.57.50:369][762]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.07-07.57.50:370][762]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.07-07.57.50:371][762]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.07-07.57.50:371][762]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.07-07.57.50:371][762]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.07-07.57.50:371][762]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.07-07.57.50:371][762]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.07-07.57.50:371][762]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.07-07.57.50:371][762]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.07-07.57.50:381][762]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.07-07.57.50:381][762]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.07-07.57.50:381][762]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.07-07.57.50:381][762]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.07-07.57.50:382][762]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.07-07.57.50:382][762]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.07-07.57.50:596][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.07-07.57.50:596][762]LogDirectoryWatcher: A directory notification for 'H:/WORKSPACE/unity/GameDemo/Content/' was aborted.
+[2017.09.07-07.57.50:596][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.07-07.57.50:596][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.07-07.57.50:602][762]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.07-07.57.50:608][762]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.07-07.57.50:608][762]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.07-07.57.50:608][762]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.07-07.57.50:608][762]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.07-07.57.50:609][762]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.07-07.57.50:609][762]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.07-07.57.50:609][762]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.07-07.57.50:609][762]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.07-07.57.50:619][762]LogDerivedDataCache: Shutdown
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.07-07.57.50:619][762]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.07-07.57.50:620][762]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.07-07.57.50:621][762]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.07-07.57.50:621][762]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.07-07.57.50:621][762]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.07-07.57.50:621][762]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B34EA9854-46C9-47A0-676B-B6B9CC404F62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a45320b3436f679f24a4fc8116d3351e%7C79d47bba95c64ad0a0d0a7c0ff3c24ed%7Cf2915413-d34a-4f6a-bf63-c93bd0f320a7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.07-07.57.50:621][762]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.09.07-07.57.51:122][762]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.09.07-07.57.51:622][762]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.09.07-07.57.52:150][762]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.07-07.57.52:153][762]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.07-07.57.52:162][762]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.07-07.57.52:162][762]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.07-07.57.52:162][762]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.07-07.57.52:162][762]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.07-07.57.52:162][762]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.07-07.57.52:162][762]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.07-07.57.52:162][762]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.07-07.57.52:163][762]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.07-07.57.52:163][762]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.07-07.57.52:163][762]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.07-07.57.52:164][762]LogExit: Exiting.
+[2017.09.07-07.57.52:178][762]Log file closed, 09/07/17 15:57:52
